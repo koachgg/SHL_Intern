@@ -20,6 +20,8 @@ I implemented two main approaches to solve this problem (well i tried a lot of t
 > **Note**: Only the **ensemble approach (Approach 1)** has been included in this repository.  
 > If you're interested in trying out **Approach 2 (Best Fold Model)**, feel free to **reach out to me**, and I’ll be happy to share the code.
 
+>> Colab Link : 🔗 https://colab.research.google.com/drive/1VReZ3F3jB7H1NP3i6lLhDfmkarJoD8Wx?usp=sharing
+
 ### Approach 1: Ensemble Mean (More Robust)
 
 This approach uses K-fold cross-validation to train multiple models and averages their predictions:
@@ -133,6 +135,9 @@ class GrammarScoreModel(torch.nn.Module):
 5. **Dropout regularization**: Prevent overfitting with strategic dropout in the regression head
 
 ## Results
+> 📌 **Important:** The observed difference between the local validation score and the public leaderboard score may be due to the leaderboard being evaluated on **only 30% of the test data**.  
+> The **final results will be based on the remaining 70%**, so final rankings may fluctuate.
+
 
 | Approach | Local Validation Score | Public Leaderboard Score |
 |----------|------------------------|--------------------------|
@@ -153,7 +158,7 @@ Possible improvements that could further enhance the model performance:
 
 ## Author
 
-Implemented by [koachgg](https://github.com/koachgg)
+Implemented by [Belo Abhigyan](https://github.com/koachgg)
 
 ## License
 
