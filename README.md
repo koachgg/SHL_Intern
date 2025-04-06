@@ -14,6 +14,8 @@ The dataset consists of audio recordings (WAV files) along with corresponding gr
 - Training set: Audio files with known grammar scores
 - Test set: Audio files for which we need to predict grammar scores
 
+>> For Dataset : Available on [Kaggle](https://www.kaggle.com/competitions/shl-intern-hiring-assessment/overview)
+
 ## Methodology
 
 I implemented two main approaches to solve this problem (well i tried a lot of them but with the time constraints found these two the best approaches if time permits i will update this repo): 
