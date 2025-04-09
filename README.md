@@ -48,8 +48,8 @@ The hybrid approach showed strong performance on the validation set. Note that t
 | Approach | Local Validation Score | Public Leaderboard Score |
 | ----------------------- | ----------------- | --------------------------------- |
 | Hybrid Ensemble Method  | 0.94       | 0.834*                            |
-| Ensemble Mean | 0.7208 | 0.691 |
-| Best Fold (Fold 3) | 0.7364 | 0.698 |
+| Ensemble Mean | 0.7208 | 0.691* |
+| Best Fold (Fold 3) | 0.7364 | 0.698* |
 
 \* *Scores are subject to change as the final results will be based on the remaining 70% of test data.*
 
@@ -63,6 +63,8 @@ Potential improvements include:
 
 ## Contact
 For any questions or further discussion regarding this hybrid approach, please feel free to contact me.
+
+-  Colab Link : [Hybrid Approach](https://colab.research.google.com/drive/1w_JI9Xp2Ajw2cTwplGG3X1p9pOk3IDBg?usp=sharing) 
 
 *Note: This repository contains the hybrid ensemble approach. If you are interested in another variant, please reach out directly.*
 
