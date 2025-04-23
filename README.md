@@ -43,6 +43,7 @@ All these features are concatenated into a single hybrid feature vector. A regre
   The combined features are split into training and validation sets to train a regressor. Post-processing steps such as clipping and smoothing (to adjust predictions within the valid range and match training distribution) are applied before generating the final submission file.
 
 ## Results
+
 The hybrid approach showed strong performance on the validation set. Note that the public leaderboard is calculated on approximately 30% of the test data—final standings may vary when evaluated on the full test set.
 
 | Approach | Local Validation Score | Public Leaderboard Score |
@@ -52,6 +53,15 @@ The hybrid approach showed strong performance on the validation set. Note that t
 | Best Fold (Fold 3) | 0.7364 | 0.698* |
 
 \* *Scores are subject to change as the final results will be based on the remaining 70% of test data.*
+
+## Visualizations
+
+### True vs Predicted Grammar Scores
+![True vs Predicted Grammar Scores](visualization-1.png)
+
+### Distribution of Grammar Scores (Labels)
+![Distribution of Grammar Scores](visualization-2.png)
+
 
 ## Future Work
 Potential improvements include:
